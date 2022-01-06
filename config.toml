@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "https://pm6022.github.io/"
 title        = "My Blog"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
