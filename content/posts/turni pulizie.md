@@ -11,8 +11,7 @@ tags:
 
 Concepito una mattina noiosa, crea turni di pulizia a due a due partendo da una lista di persone.
 
-```
-python
+``` python
 import random as rd
 import datetime as dt
 
