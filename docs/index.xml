@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 06 Jan 2022 19:14:03 +0100</lastBuildDate><atom:link href="https://pm6022.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jan 2022 15:29:11 +0100</lastBuildDate><atom:link href="https://pm6022.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Turni_pulizie</title>
+      <link>https://pm6022.github.io/posts/turni-pulizie/</link>
+      <pubDate>Wed, 12 Jan 2022 15:29:11 +0100</pubDate>
+      
+      <guid>https://pm6022.github.io/posts/turni-pulizie/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Napoli. Marzo 2020.</title>
       <link>https://pm6022.github.io/posts/napoli-marzo-2020/</link>
@@ -15,16 +24,6 @@
       
       <guid>https://pm6022.github.io/posts/napoli-marzo-2020/</guid>
       <description>Un altro giorno in quarantena, un altro morto. Non va ad aggiungersi ai decessi causati dal coronavirus, è stato il giudizio sul suo peccato originale che gli ha tolto la vita. Mica tanto originale in fondo, è il terzo che viene incenerito dalle guardie per aver avuto l&amp;rsquo;ardire di festeggiare la sua sudata corona d&amp;rsquo;alloro, a volte il caso sembra avere un pessimo umorismo con i giochi di parole. Nessuno lo piange al di fuori dei conoscenti, ha infranto il decreto, poteva inasprire il contagio nella regione partenopea per puro capriccio.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://pm6022.github.io/posts/turni-pulizie/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pm6022.github.io/posts/turni-pulizie/</guid>
-      <description>Concepito una mattina noiosa, crea turni di pulizia a due a due partendo da una lista di persone.
-import random as rdimport datetime as dtpeople = [&#39;Angelo&#39;, &#39;Paolo&#39;, &#39;Matteo&#39;, &#39;Gaetano&#39;, &#39;Michele&#39;]rd.shuffle(people)#print(&#39;Random Order:&#39;, people)couples = [(people[i], people[i+1]) for i in range(len(people)-1)]couples.append((people[-1], people[0]))#print(&#39;Couples:&#39;, couples)today = dt.datetime.now()#print(&#39;Today is the:&#39;, today.strftime(&#39;%x&#39;))for j in range(len(couples)):nextwk = today + dt.timedelta(days=7*(j+1))print(&#39;Week:&#39;, j+1, nextwk.strftime(&#39;%x&#39;))print(&#39;Couple:&#39;, couples[j], &#39;\n&#39;)</description>
     </item>
     
   </channel>
