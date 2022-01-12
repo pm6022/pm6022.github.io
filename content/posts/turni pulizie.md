@@ -1,3 +1,12 @@
+title: "Turni pulizie"
+date: 2022-01-12T15:14:03+01:00
+draft: false
+toc: false
+images:
+tags:
+  - codice
+---
+
 Concepito una mattina noiosa, crea turni di pulizia a due a due partendo da una lista di persone.
 
 ```
